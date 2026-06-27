@@ -1,0 +1,20 @@
+# Model weights — never commit (huge, redistributable separately)
+*.gguf
+*.bin
+*.safetensors
+models/
+
+# Build artifacts
+build/
+build-rpc/
+*.o
+*.so
+
+# Editor / OS noise
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Logs / local benchmark dumps
+*.log
